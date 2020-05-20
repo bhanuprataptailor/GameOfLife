@@ -1,0 +1,57 @@
+body {
+  background: url("jal.jpg")  center bottom repeat;  
+}
+  
+.box {
+  display: inline-block;       
+  border: 1px solid black;
+  width: 15px;
+  height: 17px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  }
+
+.off {
+  background-color: lightblue;
+}
+
+.on {
+  background-color: green;
+}
+  
+.box:hover { 
+  background: #00CCFF;
+}
+
+.center {
+  margin: auto;
+  display: table;
+  margin-top: 10px;
+}
+
+.grid {
+  width: 200px;
+  line-height: 1;
+  margin: auto;
+  box-shadow: 40px 40px 40px grey;
+  margin-top: 20px;
+}
+  
+h1, h3 {
+  color: red;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 10px;
+}
+
+h2 {
+  margin-top: 0px;
+  font-size : large*20;
+  text-align: center;
+  color: skyblue;
+}
+
+h4 {
+  margin-top: 0px;
+}
